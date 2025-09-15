@@ -1,0 +1,66 @@
+{
+  "name": "Contact.json",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Client's full name"
+    },
+    "email": {
+      "type": "string",
+      "description": "Client's email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Client's phone number"
+    },
+    "company": {
+      "type": "string",
+      "description": "Client's company name"
+    },
+    "service": {
+      "type": "string",
+      "enum": [
+        "website_development",
+        "hosting_networking",
+        "mobile_apps",
+        "ecommerce",
+        "custom_software",
+        "consulting"
+      ],
+      "description": "Service interested in"
+    },
+    "message": {
+      "type": "string",
+      "description": "Project details and requirements"
+    },
+    "budget": {
+      "type": "string",
+      "enum": [
+        "under_5k",
+        "5k_15k",
+        "15k_50k",
+        "50k_plus"
+      ],
+      "description": "Project budget range"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "contacted",
+        "in_progress",
+        "completed"
+      ],
+      "default": "new",
+      "description": "Contact status"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "service",
+    "message"
+  ],
+  "rls": {}
+}
