@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProjectCard from "../components/projects/ProjectCard";
+import ProjectCard from "../Components/projects/ProjectCard.jsx";
 import { Filter } from "lucide-react";
 
 export default function Projects() {

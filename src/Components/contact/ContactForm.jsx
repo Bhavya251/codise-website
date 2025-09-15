@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Contact  from "../../Entities/Contact.json";
-import { Button } from "../../Components/ui/button";
-import { Input } from "../../Components/ui/input";
-import { Textarea } from "../../Components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../Components/ui/select";
+import { Button } from "../../Components/ui/button.jsx";
+import { Input } from "../../Components/ui/input.jsx";
+import { Textarea } from "../../Components/ui/textarea.jsx";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../Components/ui/select.jsx";
 import { CheckCircle, Send, User, Mail, Phone, Building } from "lucide-react";
 
 export default function ContactForm() {

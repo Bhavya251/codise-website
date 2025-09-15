@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../components/home/HeroSection.jsx";
-import ServicesSection from "../components/home/ServicesSection";
+import ServicesSection from "../components/home/ServicesSection.jsx";
 
 export default function Home() {
   return (
