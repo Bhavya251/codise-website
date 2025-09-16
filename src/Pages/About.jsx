@@ -31,7 +31,7 @@ export default function About() {
         {/* Hero Section */}
         <div className="text-center mb-20">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-700 mb-6">
-            About Codise
+            About The Codise
           </h1>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             We are a passionate team of software engineers, designers, and strategists dedicated to 
@@ -45,7 +45,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-gray-700 mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                Founded in 2019, Codise began as a vision to bridge the gap between complex 
+                Founded in 2024, The Codise began as a vision to bridge the gap between complex 
                 technology and practical business solutions. What started as a small team of 
                 developers has grown into a comprehensive software solutions company.
               </p>

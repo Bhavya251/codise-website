@@ -13,7 +13,7 @@ export default function Contact() {
     {
       icon: Mail, 
       title: "Email",
-      details: ["hello@codise.com", "projects@codise.com"],
+      details: ["hello@thecodise.com", "projects@thecodise.com"],
       subtitle: "We respond within 24 hours"
     },
     {

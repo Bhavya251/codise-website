@@ -72,12 +72,12 @@ export default function Layout({ children, currentPageName }) {
                 {/* <Monitor className="h-8 w-8 text-gray-600" /> */}
                 <img
                     src={logo}
-                    alt="Codise Logo"
+                    alt="The Codise Logo"
                     className="h-full w-full object-contain" // 👈 keeps same size as Monitor icon
                 />
               </div>
               <div>
-                <span className="text-xl font-bold text-gray-700">Codise</span>
+                <span className="text-xl font-bold text-gray-700">The Codise</span>
                 <p className="text-sm text-gray-500">Software Solutions</p>
               </div>
             </Link>
@@ -143,11 +143,11 @@ export default function Layout({ children, currentPageName }) {
                 {/* <Monitor className="h-8 w-8 text-gray-600" /> */}
                 <img
                     src={logo}
-                    alt="Codise Logo"
+                    alt="The Codise Logo"
                     className="h-full w-full object-contain" // 👈 keeps same size as Monitor icon
                 />
               </div>
-                <span className="text-lg font-bold text-gray-700">Codise</span>
+                <span className="text-lg font-bold text-gray-700">The Codise</span>
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Delivering innovative software solutions that transform businesses and drive digital growth.
@@ -180,7 +180,7 @@ export default function Layout({ children, currentPageName }) {
           </div>
           
           <div className="border-t border-gray-300 mt-8 pt-8 text-center text-sm text-gray-500">
-            <p>&copy; 2024 Codise Software Solutions. All rights reserved.</p>
+            <p>&copy; 2025 The Codise Software Solutions. All rights reserved.</p>
           </div>
         </div>
       </footer>
